@@ -1,0 +1,36 @@
+body{
+    background-color: #24353F;
+}
+.group{
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.group h1{
+    color: #17A2B8;
+}
+input{
+    color: white !important;
+}
+
+/* input.form-control{
+    border: 1px solid white;
+} */
+input.form-control:focus{
+border: 1px solid #17A2B8;
+outline: 0;
+box-shadow: none;
+/* box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); */
+}
+::-webkit-input-placeholder{
+    color: grey !important;
+}
+nav{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+ 
+}
+.btn2:hover{
+background-color: #FEC354;
+}
+.text{
+    box-shadow: rgb(0, 0, 0) -5px 2px 54px -9px;
+  
+}
